@@ -1,5 +1,7 @@
 # Demo: Using WordPress with React to Build a Modern Web App (WP REST API)
 
+#update the URL of Course Component in of wordpress URL with respected endpoints
+
 ![react-woprdress](https://snipcart.com/media/204844/wordpress-react.png)
 
 WordPress REST API is a huge step forward for frontend developers looking to combine the power of JavaScript frameworks like React (or [Vue.js](https://snipcart.com/blog/wordpress-vue-headless)) with WordPress.
