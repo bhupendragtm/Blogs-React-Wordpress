@@ -2,10 +2,10 @@ import React from 'react';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 
-import Copyright from './Copyright';
-import Courses from './Courses';
-import Posts from './Posts';
-import { useSnipcartState } from './snipcart';
+import Copyright from './components/Copyright';
+import Courses from './components/Courses';
+import Posts from './components/Posts';
+import { useSnipcartState } from './components/snipcart';
 
 function App() {
   const isSignedIn = useSnipcartState(state => state.customer.status === 'SignedIn');

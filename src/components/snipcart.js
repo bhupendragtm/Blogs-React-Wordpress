@@ -1,6 +1,4 @@
-
 import { useEffect, useRef, useState } from 'react';
-
 
 export function useSnipcartState(selector) {
     const [data, setData] = useState(undefined);
@@ -34,7 +32,6 @@ export function useSnipcartState(selector) {
         cleanupFn.current = window.Snipcart.store.subscribe(refreshValue);
         refreshValue();
     }
-
     if(!window.Snipcart) {
         document.addEventListener('snipcart.ready', setup);
     } else {

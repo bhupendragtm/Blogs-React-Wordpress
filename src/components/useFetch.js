@@ -5,18 +5,17 @@ import axios from 'axios';
 export default function useFetch(url) {
     const [data, setData] = useState(null);
     useEffect(() => {
-        function loadData() {
+        const loadData=()=> {
             axios
             .get(url)
-            .then((response) => {
-                // console.log(response.data);
-            const posts = response.data;
+            .then((res) => {
+            const posts = res.data;
             setData(posts);
+            console.log(data);
             });
         }
 
         loadData();
     }, [url]);
-    console.log(data);
     return data;
 }

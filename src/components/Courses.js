@@ -30,7 +30,7 @@ export default function Courses() {
             data-item-id={blog.id}
             data-item-name={blog.title.rendered}
             // data-item-price={blog.price}
-            data-item-url="http://192.168.9.17/wordpress5/wp-json/wp/v2/blogs/1">
+            data-item-url="http://localhost/wordpress5/wp-json/wp/v2/blogs/1">
             <IconButton edge="end" aria-label="delete">
               <AddShoppingCartIcon />
             </IconButton>
